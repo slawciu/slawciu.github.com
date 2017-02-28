@@ -1,11 +1,11 @@
 title:        Sławek Rudawski
 tagline:      'Sławek Rudawski'
-description:  'Blog programistyczny'
-url:          http://slawciu.github.io
+description:  ''
+url:          https://slawciu.github.io
 version:      1.1.1
 author:
-  name:       ''
-  email:      ''
+  name:       'Sławek Rudawski'
+  email:      'slawomir.rudawski@gmail.com'
 markdown:     rdiscount
 permalink:    pretty
 highlighter:  rouge
