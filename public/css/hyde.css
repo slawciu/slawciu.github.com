@@ -320,6 +320,7 @@ a:focus {
 /* Single post */
 .post {
   margin-bottom: 40px;
+  text-align: justify;
 }
 @media (min-width: 990px) {
   .post {
@@ -496,4 +497,10 @@ a:focus {
 .theme-base-0f .container a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Images */
+.postImage {
+  display: block;
+  margin: 0 auto;
 }
