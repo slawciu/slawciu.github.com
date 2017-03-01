@@ -15,7 +15,7 @@ layout: nil
    <email>{{ site.author.email }}</email>
  </author>
 
- {% for post in site.categories["Daj Się Poznać 2017"] %}
+ {% for post in site.categories["dajsiepoznac"] %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>

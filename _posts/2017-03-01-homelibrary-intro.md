@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HomeLibrary intro!
-category: Daj Się Poznać 2017
+category: dajsiepoznac
 comments: true
 ---
 
