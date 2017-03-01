@@ -2,6 +2,7 @@
 layout: post
 title: HomeLibrary intro!
 category: Daj Się Poznać 2017
+comments: true
 ---
 
 ##Opis domeny
