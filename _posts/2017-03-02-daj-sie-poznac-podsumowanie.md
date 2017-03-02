@@ -2,6 +2,7 @@
 layout: post
 title: Daj Się poznać - podsumowanie
 category: dajsiepoznac
+comments: true
 ---
 
 Zeszłoroczny konkurs miał dla mnie 2 zakończenia:
