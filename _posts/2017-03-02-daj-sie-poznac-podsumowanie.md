@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Daj Się poznać - podsumowanie
-category: personal
+category: dajsiepoznac
 ---
 
 Zeszłoroczny konkurs miał dla mnie 2 zakończenia:
