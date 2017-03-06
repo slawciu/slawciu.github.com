@@ -9,5 +9,5 @@ author:
 markdown:     rdiscount
 permalink:    pretty
 highlighter:  rouge
-paginate:     1
+paginate:     5
 gems: [jekyll-paginate]
