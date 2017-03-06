@@ -3,6 +3,7 @@ layout: post
 title: HomeLibrary intro!
 category: dajsiepoznac
 comments: true
+image: "/public/001.jpg"
 ---
 
 ##Opis domeny

@@ -3,6 +3,7 @@ layout: post
 title: Daj Się poznać - podsumowanie
 category: dajsiepoznac
 comments: true
+image: "https://pbs.twimg.com/media/ClOs4O_WkAAyEcc.jpg"
 ---
 
 Zeszłoroczny konkurs miał dla mnie 2 zakończenia:

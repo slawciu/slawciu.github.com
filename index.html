@@ -12,9 +12,13 @@ layout: default
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
     {{ post.excerpt }}
-	<a href="{{post.url}}">czytaj dalej...</a>
+    <div class="media">
+      <img src="{{ post.image }}" />
+    </div>
+    <div class="readMore">
+	    <a href="{{post.url}}">czytaj dalej...</a>
+    </div>
   </div>
   {% endfor %}
 </div>
