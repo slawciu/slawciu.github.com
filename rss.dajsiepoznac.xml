@@ -15,8 +15,8 @@ layout: nil
           <description>{{ post.content | xml_escape }}</description>
           <pubDate>{{ post.date | date:"%a, %d %b %Y %T %z" }}</pubDate>
           <link>{{ site.url }}{{ post.url }}</link>
-          <guid>{{ site.url }}{{ post.url }}</guid
-        </item
+          <guid>{{ site.url }}{{ post.url }}</guid>
+        </item>
 
     {% endfor %}
   </channel>
