@@ -3,6 +3,7 @@ layout: post
 title: Czy studia są potrzebne programiście?
 category: dajsiepoznac
 comments: true
+date: 2017-03-09T21:15:00+01:00
 image: 
 ---
 

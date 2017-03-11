@@ -3,6 +3,7 @@ layout: post
 title: W lewym narożniku - React i SignalR...
 category: dajsiepoznac
 comments: true
+date: 2017-03-08T21:15:00+01:00
 image: "/public/003.png"
 ---
 

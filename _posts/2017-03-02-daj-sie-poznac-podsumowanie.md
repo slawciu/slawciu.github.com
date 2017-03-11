@@ -4,6 +4,7 @@ title: Daj Się poznać - podsumowanie
 category: dajsiepoznac
 comments: true
 image: "https://pbs.twimg.com/media/ClOs4O_WkAAyEcc.jpg"
+date: 2017-03-02T18:15:00+01:00
 ---
 
 Zeszłoroczny konkurs miał dla mnie 2 zakończenia:
