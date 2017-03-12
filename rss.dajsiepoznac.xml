@@ -1,22 +1,24 @@
 ---
-layout: null
+layout: nil
 ---
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bakery Store - Articles</title>
-    <description>Your latest baking news</description>
+  <channel>    
+    <title>Sławek Rudawski - dev blog</title>
+    <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
-    {% for post in site.categories["dajsiepoznac"] %}
-      {% unless post.draft %}
-        <item>
+    <atom:link href="https://slawciu.github.io/rss.dajsiepoznac.xml" rel="self" type="application/rss+xml" />
+    {% for post in site.categories["dajsiepoznac"] %}
+
+        <item>
           <title>{{ post.title | xml_escape }}</title>
           <description>{{ post.content | xml_escape }}</description>
-          <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-          <link>{{ post.url | prepend: site.url }}</link>
-          <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
-        </item>
-      {% endunless %}
+          <pubDate>{{ post.date | date:"%a, %d %b %Y %T %z" }}</pubDate>
+          <link>{{ site.url }}{{ post.url }}</link>
+          <guid>{{ site.url }}{{ post.url }}</guid>
+          <category>{{ post.category }}</category>
+        </item>
+
     {% endfor %}
   </channel>
 </rss>

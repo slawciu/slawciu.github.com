@@ -4,7 +4,7 @@ title: HomeLibrary intro!
 category: dajsiepoznac
 comments: true
 image: "/public/001.jpg"
-date: 2017-03-01T20:15:00+01:00
+date: 2017-03-01 20:15:00 0100
 ---
 
 ##Opis domeny
