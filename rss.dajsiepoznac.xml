@@ -9,8 +9,7 @@ layout: nil
     <link>{{ site.url }}</link>
     <atom:link href="https://slawciu.github.io/rss.dajsiepoznac.xml" rel="self" type="application/rss+xml" />
     {% for post in site.categories["dajsiepoznac"] %}
-
-        <item>
+         <item>
           <title>{{ post.title | xml_escape }}</title>
           <description>{{ post.content | xml_escape }}</description>
           <pubDate>{{ post.date | date:"%a, %d %b %Y %T %z" }}</pubDate>
@@ -18,7 +17,6 @@ layout: nil
           <guid>{{ site.url }}{{ post.url }}</guid>
           <category>{{ post.category }}</category>
         </item>
-
     {% endfor %}
   </channel>
 </rss>
