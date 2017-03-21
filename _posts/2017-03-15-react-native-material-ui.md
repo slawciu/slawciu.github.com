@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReactNative & MaterialUI
+title: ReactNative i MaterialUI
 category: dajsiepoznac
 comments: true
 image: "/public/006 (Mobile).png"
