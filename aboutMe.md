@@ -12,8 +12,8 @@ Z ciekawszych:
 * Embedded: STM32 Discovery, ATmega
 * SmartTV
 
-Po godzinach jaram się [ReactNativem](https://facebook.github.io/react-native/) i rozmyślam, do czego wykorzystać nabyte ostatnimi czasy Omegi. W sezonie zdarza mi się polatać na moim Trampku (a nawet popełnić posta na dev-na-moto)
+Po godzinach jaram się [ReactNativem](https://facebook.github.io/react-native/) i rozmyślam, do czego wykorzystać nabyte ostatnimi czasy [Omegi](https://onion.io/). W sezonie zdarza mi się polatać na moim Trampku (a nawet popełnić posta na [dev-na-moto](http://dev-na-moto.blogspot.com/))
 
-W roku 2016 brałem udział w 2. edycji konkursu Daj się poznać! Prowadzenie bloga rzeczybezinternetu.blogspot.com i rozwijanie projektu open source zaprowadziło mnie na [3. miejsce](http://devstyle.pl/2016/06/20/wyniki-i-podsumowanie-daj-sie-poznac-2016/) :)
+W roku 2016 brałem udział w 2. edycji konkursu Daj się poznać! Prowadzenie bloga [rzeczybezinternetu.blogspot.com](http://rzeczybezinternetu.blogspot.com/) i rozwijanie projektu open source zaprowadziło mnie na [3. miejsce](http://devstyle.pl/2016/06/20/wyniki-i-podsumowanie-daj-sie-poznac-2016/) :)
 
-Mam swoje miejsce na [githubie](https://github.com/slawciu) i [tweeterze](https://twitter.com/slavciu). 
+Mam swoje miejsce na [Githubie](https://github.com/slawciu) i [Twiterze](https://twitter.com/slavciu). 
