@@ -24,4 +24,4 @@ Zwierzęta już dawno poradziły sobie z odczytaniem tej niewidzialnej siły - c
 ##Pod dachem
 I znów w dużym uproszczeniu - żeby dowiedzieć się, gdzie się znajdujemy w danym budynku, ktoś musi wcześniej go zmapować - za firewallem zajmują się tym kartografowie - w budynku wystarczy, że osoba wyposażona w smartfon i odpowiednią aplikację przespaceruje się po miejscach, które chcemy objąć zasięgiem systemu lokalizacji - w ten sposób powstanie mapa pola magnetycznego budynku. Potem już zwykły użytkownik będzie mógł odpalić swoją aplikację i posiadając informację o mapie zobaczyć, w którym miejscu się znajduje. Lokalizacja zaimplementowana - można ją wstrzyknąć do modułu nawigacji i zacząć na tym zarabiać.
 
-Btw - myśleliście jak w dzisiejszych czasach można zrealizować [Mapę Huncwotów (ang. Marauder's Map) ](https://www.youtube.com/watch?v=onm3sqQ4LMo)
+Btw - myśleliście, jak w dzisiejszych czasach można zrealizować [Mapę Huncwotów (ang. Marauder's Map) ](https://www.youtube.com/watch?v=onm3sqQ4LMo)?
