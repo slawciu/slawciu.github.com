@@ -3,7 +3,7 @@ layout: post
 title: IT Science Fiction(?)
 category: dajsiepoznac
 comments: true
-date: 2017-04-21 17:29:00 0100
+date: 2017-04-21 19:18:00 0100
 ---
 Spisując rozważania na temat [“Czy studia są potrzebne programiście”](/dajsiepoznac/2017/03/09/czy-programista-potrzebuje-studiow/) przypomniałem sobie o pewnym micie noszącym miano “Projekt grupowy”. Projekt grupowy to taki projekt, do wykonania którego niezbędne jest utworzenie grupy ludzi. Ważne, by w tej grupie znalazła się osoba, która ten projekt wykona, by pozostałe mogły się go ewentualnie “nauczyć” i obronić - zaliczając tym samym przedmiot. 
 
