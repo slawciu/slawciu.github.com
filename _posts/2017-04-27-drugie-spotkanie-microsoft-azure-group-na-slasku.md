@@ -5,7 +5,7 @@ category: dajsiepoznac
 comments: true
 date: 2017-04-27 13:00:00 0100
 ---
-26.04.2017 odbyło się 2 spotkanie grupy Azure. Tym razem swoją wiedzą podzielili się [Bartosz Sobczyk](@bsobczyk) - opowiedział o Active Directory i przyległościach w Azure i [Tomasz Krawczyk](https://www.future-processing.pl/blog/tkrawczyk-2/) - opowiedział o swoich doświadczeniach z Azure Data Lake
+26.04.2017 odbyło się 2 spotkanie grupy Azure. Tym razem swoją wiedzą podzielili się [Bartosz Sobczyk](https://twitter.com/@bsobczyk) - opowiedział o Active Directory i przyległościach w Azure i [Tomasz Krawczyk](https://www.future-processing.pl/blog/tkrawczyk-2/) - opowiedział o swoich doświadczeniach z Azure Data Lake
 
 
 ##Bartosz Sobczyk - Zarządzanie tożsamością na platformie Microsoft Azure
