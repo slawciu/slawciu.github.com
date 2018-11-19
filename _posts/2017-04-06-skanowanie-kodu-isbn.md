@@ -8,7 +8,7 @@ date: 2017-04-06 14:40:00 0100
 ---
 Jedną z kluczowych funkcjonalności aplikacji mobilnej będzie skanowanie kodu ISBN z książki. Kod ISBN to ten sam kod, który jest skanowany przy kasie, gdy kupujemy książkę.
 
-##Historia
+## Historia
 _"Czy to prawda, że w Moskwie na placu Czerwonym rozdają Samochody? Tak, to prawda, tylko że nie w Moskwie, lecz w Leningradzie, i nie na placu Czerwonym, a na placu Rewolucji, i nie Samochody, a rowery, i nie rozdają, a kradną."_
 
 Teza: Wg wikipedii, ISBN jest niepowtarzalnym 13-cyfrowym identyfikatorem książki. Jako międzynarodowy standard został zatwierdzony w 1970 roku 
@@ -24,7 +24,7 @@ _“Norma nie wskazuje jednoznacznie, jak należy postąpić w takiej sytuacji, 
 
 Wniosek - odobnie jak z numerem [PESEL](http://www.polskieradio.pl/9/307/Artykul/1005998,Ten-sam-PESEL-dla-dwoch-roznych-osob-MSW-to-niemozliwe) - tu też nie będzie tak różowo.
 
-##Kolejna biblioteka w Bibliotece
+## Kolejna biblioteka w Bibliotece
 Problemy będziemy rozwiązywać jak się pojawią. Tymczasem czas zapiąć kolejną bibliotekę do naszej aplikacji (wspominałem już, że praca z ReactNative to jak zabawa klockami LEGO?) [react-native-camera](https://github.com/lwansbrough/react-native-camera). Biblioteka, która nie tylko umożliwi nam skanowanie kodów, ale też w przyszłości posłuży nam do robienia zdjęć książkom (w celu jednoznacznego określenia jej stanu).
 
 Użycie jest banalnie proste. Najpierw przedstawmy kamerę naszej aplikacji:

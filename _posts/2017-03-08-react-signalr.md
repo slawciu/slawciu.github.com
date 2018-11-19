@@ -11,7 +11,7 @@ W ramach konkursu Daj się poznać rozwijam aplikację do zarządzania domowym z
 
 <img class="postImage" src="/public/003.png" />
 
-##SignalR
+## SignalR
 Biblioteka dostarczana przez Microsoft, jak sami się chwalą:
 "Incredibly simple real-time web for .NET"
 i mają rację. Po stronie serwera musimy zakodzić Hub, po stronie klienta połączyć się do tego Huba. Biblioteka sprawi, że w aplikacji będziemy mieć dostępne “stałe łącze” między klientami a serwerem. W pudełku z samym signalR dostajemy informację o połączonych klientach (po stronie Huba), z możliwością filtrowania odbiorców potencjalnych wiadomości. 
@@ -59,5 +59,5 @@ Każdemu komponentowi musimy powiedzieć, jak się ma narysować (implementując
 
 Przy okazji polecam dokumentację od FB - daje radę. Moja biblioteka skorzysta z łącznika między czystym Reactem a światem .NETa - [ReactJS.net](https://reactjs.net/)
 
-##Kodzik
+## Kodzik
 Co robi kodzik? Po uruchomieniu, z poziomu komponentu Dashboard wołana jest metoda huba library - żądanie o aktualny stan biblioteki, opatrzone prostym parametrem. Hub w podzięce za pobudzenie, wywołuje metodę klienta, który go zawołał, a otrzymana wiadomość pojawia się na stronie. Ta skomplikowana machina ma swoje miejsce w chmurze Azure.

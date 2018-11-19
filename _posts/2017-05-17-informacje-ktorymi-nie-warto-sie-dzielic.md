@@ -9,7 +9,7 @@ Tworząc oprogramowanie prędzej czy później dotrzemy do momentu, że gdzieś 
 
 Wtedy warto ukryć wrażliwe dane przed światem - najlepiej na maszynie developerskiej i nie chwalić się nimi na lewo i prawo. Dotychczas w Domowej Bibliotece connection string i klucz prywatny do Books api leżały sobie w repozytorium, co było bardzo nieodpowiedzialne z mojej strony. Klucz dezaktywowałem, teraz czas zabezpieczyć się przed podobnymi wpadkami w przyszłości.
 
-##connectionStrings.config
+## connectionStrings.config
 W świecie .NETa możemy śmiało wyodrębniać poszczególne składowe app i web configów do osobnych plików. Jedyne, co musimy zrobić, to wskazać, gdzie znajduje się właściwa konfiguracja, kodzikiem mówiąc:
 
 <script src="https://gist.github.com/slawciu/61e1a1dd40455d155621dab7c3f594a6.js"></script>
@@ -22,7 +22,7 @@ a we wskazanym pliku umieszczamy nasze connection stringi. Proste! Tak samo moż
 
 <img class="postImage" src="/public/021.png" />
 
-##apiKeys.config
+## apiKeys.config
 Sprawa się nieco komplikuje w momencie, gdy chcemy zrobić coś niestandardowego - np. swój własny typ konfiguracyjny. Klucze do api mógłbym trzymać w sekcji appSettings, ale wtedy musiałbym ukryć cały ten plik przed potencjalnymi kontrybutorami, a tego nie chcę robić. Dlatego też klucze do api będą posiadać swoją własną sekcję w konfiguracji, którą to sekcję będzie można wyodrębnić do osobnego pliku. Chcąc stworzyć nową sekcję, musimy stworzyć klasę dziedziczącą po ConfigurationSection, a w niej umieszczamy logikę odpowiedzialną za pobieranie danych z naszej sekcji. 
 
 <script src="https://gist.github.com/slawciu/fa522a5581202f6a2c81ac723c81c8ef.js"></script>

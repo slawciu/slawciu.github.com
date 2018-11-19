@@ -9,7 +9,7 @@ date: 2017-03-15 22:25:00 0100
 
 Uruchomiliśmy szkielet aplikacji. Swą spartańską urodą urzekła zapewne niejednego. Mnie nie ;) Dziś skupimy się na 2 rzeczach: nadaniu naszej aplikacji mobilnej stylu zbliżonego do [Material Design](https://material.io/guidelines/) i dorzucimy Navigator.
 
-##Konfiguracja
+## Konfiguracja
 Styl nadawać możemy ręcznie - wymyślając wygląd każdej nowej kontrolki, albo skorzystać z [gotowego rozwiązania](https://github.com/xotahal/react-native-material-ui). 
 
     yarn add react-native-material-ui
@@ -26,10 +26,10 @@ Teraz możemy czerpać garściami z ostylowanych komponentów, o ile wcześniej 
 
     import { COLOR, ThemeProvider, Toolbar } from 'react-native-material-ui';
 
-##Użycie react-native-material-ui
+## Użycie react-native-material-ui
 Zaczniemy od `<ThemeProvider uiTheme={uiTheme}>`. Ten komponent opakuje nam całą aplikację (komponenty wewnątrz) w styl Material Design. Jako `prop` przekazujemy mu `uiTheme` - obiekt, za pomocą którego możemy dostosować styl do naszych potrzeb - ustawiając np. kolor przewodni aplikacji.
 
-##Navigator
+## Navigator
 Wewnątrz `ThemeProvider` wrzucamy komponent `Navigator`.  Skorzystam z Navigatora dostępnego w samym ReactNative. [Tutaj](https://facebook.github.io/react-native/docs/navigation.html) możesz poczytać o innych opcjach. Navigator sam w sobie niczego nam nie narysuje (dopóki mu nie powiemy jak), ale sprawi, że poruszanie się między ekranami i co najważniejsze - zarządzanie tym procesem będzie o wiele prostsze w przyszłości. Musimy tylko zdefiniować ścieżki (`routes`), którymi będziemy się poruszać. Pierwszym przystankiem na naszej ścieżce będzie lista książek. 
 
     const routes = {

@@ -14,7 +14,7 @@ Programowanie dynamiczne stosujemy jako jedną z metod działania algorytmu obok
 Z drugiej strony decydując się na użycie programowania dynamicznego jako podstawowej zasady działania algorytmu należy wziąć pod uwagę rozmiar danych wejściowych n, dla których obliczane będą przykładowe wartości. Zgodnie z ideą programowania dynamicznego potrzebna jest tablica do przechowywania obliczonych wartości. Im większe n, tym większa tablica, co z kolei wymaga większej ilości potrzebnej pamięci. Sposób rozwiązania problemu zależy od posiadanych przez nas zasobów – czasu i pamięci komputera. Zazwyczaj rozwiązanie znajdzie się gdzieś w środku przedziału między najlepszą szybkością, a małą ilością zajmowanego miejsca w pamięci.
 Aby lepiej zobrazować zalety programowania dynamicznego, zaimplementowano w języku c++ poniższe algorytmy i przeprowadzono testy sprawdzające czas wykonania algorytmów dla konkretnych danych wejściowych i ilość wykonywanych wybranych operacji. Wyniki przedstawiono na wykresach.
  
-##Programowanie dynamiczne a metoda dziel i zwyciężaj.
+## Programowanie dynamiczne a metoda dziel i zwyciężaj.
 Algorytm obliczania dwumianu Newtona oparty o wzór
 <img class="postImage" src="/public/013/09.png" />
  gdzie
@@ -44,7 +44,7 @@ Powyższe dwa wykresy prezentują zależność pomiędzy ilością wykonanych op
 
 Powyżej przedstawiono zależność liczby operacji dodawania i przypisania od wielkości n dla algorytmu opartego o programowanie dynamiczne. Dla tej ilości danych już wyraźnie widać zakrzywienie, jednak w porównaniu z oczekiwaną ilością operacji dla algorytmu rekursywnego można przyjąć, że zależność ta jest nadal liniowa. Ilość operacji osiągnięta przez ten algorytm dla n=1650 odpowiada w przybliżeniu ilości operacji dla n=23 algorytmu rekursywnego.
  
-##Programowanie dynamiczne a rekursja
+## Programowanie dynamiczne a rekursja
 Zaimplementowano algorytm obliczający kolejne wyrazy ciągu Fibonacciego w oparciu o wzór
 <img class="postImage" src="/public/013/11.png" />
 W języku C++, ustawiając wartowników w miejscach występowania operacji przypisania i dodawania. 

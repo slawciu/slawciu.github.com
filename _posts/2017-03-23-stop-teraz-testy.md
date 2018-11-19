@@ -8,10 +8,10 @@ image: '/public/008.png'
 ---
 Po dość owocnym okresie tworzenia kodziku wyrzuty sumienia zaczynają gryźć niemiłosiernie, a widmo zbliżającej się klęski majaczy się na horyzoncie. O czym mowa - proste o projekcie bez testów. Po stronie mobilnej tworzenie aplikacji przypomina bardzo długiego spike’a, którego zadowalające (mnie) efekty lądują w repozytorium. Jako że szkielet aplikacji jest gotowy, czas dodać testy, które pokryją kodzik…
 
-##\_\_test\_\_
+## \_\_test\_\_
 Katalog o wiele mówiącej nazwie jest częścią template’a, który tworzy się za pomocą komendy `react-native init`. Znajdują się w nim 2 pliki testujące przykładowy kodzik na platformę Android i iOS. Mnie się nie przydadzą, więc wylatują. Na ich miejsce pojawi się kod testujący Reducery, Actions i Components. Jako że Redux leci z nami, testowanie powinno być błahostką.
 
-##Jest
+## Jest
 Facebook tworząc Reacta nie zapomniał o jednej z ważniejszych części życia oprogramowania (i dewelopera :)) - o testowaniu - i przygotował całkiem wygodną bibliotekę (sami określają ją mianem Painless JavaScript Testing). Painless i JavaScript? Sprawdźmy ten oksymoron. Na pierwszy ogień idzie Reducer. Będzie stosunkowo łatwy do przetestowania, gdyż przetwarza informację zawartą w otrzymanym obiekcie Action, transformując stan aplikacji.
 
 Kod odpowiedzialny za obsługę zmiany stanu połączenia z hubem signalR:

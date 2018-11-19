@@ -8,10 +8,10 @@ date: 2017-04-21 17:29:00 0100
 ---
 Jak dotąd większość czasu poświęciłem na rozwój części mobilnej całego systemu. Nie zapominajmy, że sama aplikacja mobilna jest tylko interfejsem między człowiekiem a właściwą magią, która sprawi, że to wszystko będzie działać.
 
-##\#yolo
+## \#yolo
 Dotychczas serwer był rozwijany w myśl słynnego ostatnio #yoloProgramming. Chodziło o to, żeby powstał działający szkielet backendu, do którego aplikacja mobilna będzie mogła się odzywać za pośrednictwem sieci.
 
-##Testy
+## Testy
 Czas spłacić dług techniczny, który został zaciągnięty i złożyć kilka unit testów w ofierze bogom programowania. Będzie to pierwszy krok do refaktoru kodziku napisanego w starym dobrym C#. Do napisania testów użyję frameworka [xUnit](https://xunit.github.io/), a same testy uruchamiał będę resharperowym [runnerem](https://github.com/xunit/resharper-xunit) (którego trzeba doinstalować).
 
 <img class="postImage" src="/public/015-1.png" />
