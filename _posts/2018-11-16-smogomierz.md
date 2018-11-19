@@ -41,7 +41,7 @@ Samo składanie polegało na podłączeniu odpowiednich pinów czujników do pin
 Aplikacja od luftdaten stawia na ESP serwer www, za pomocą którego mamy dostęp do ostatniego odczytu i szeregu ustawień konfiguracyjnych. 
 <img class="postImage" src="/public/023/02.png" />
 
-Zaznaczając w konfiguracji checkbox "Wysyłaj tam Feinstaub-App" jesteśmy w stanie podglądać odczyty czujnika także za pomocą aplikacji mnobilnej [Particulate Matter App](https://play.google.com/store/apps/details?id=com.mrgames13.jimdo.feinstaubapp). Uwagę zwracają miejsce na link do zewnętrznego API i pola konfiguracyjne dla serwera bazy InfluxDB.
+Zaznaczając w konfiguracji checkbox "Wysyłaj tam Feinstaub-App" jesteśmy w stanie podglądać odczyty czujnika także za pomocą aplikacji mobilnej [Particulate Matter App](https://play.google.com/store/apps/details?id=com.mrgames13.jimdo.feinstaubapp). Uwagę zwracają miejsce na link do zewnętrznego API i pola konfiguracyjne dla serwera bazy InfluxDB.
 Wrodzona ciekawość, co się wysyła sprawiła, że po paru minutach stał json-server. Hint - w adresie serwera nie podawać http. Z czujnika przyszedł piękny json:
 
 ```
